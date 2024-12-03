@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #1D2F30;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1D2F30;
+}
+        
+.header-inner {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+
+
+.underHeader {
+    width: 680px;
+    margin-top: 10%;
+}
+
+.nameTag {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.nameText {
+    margin-top: 5%;
+}
+
+.rsBtn {
+    color: #BAE249;
+    margin-top: px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+
+    position: relative;
+}
+
+.slider-elem {
+    width: 260px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.sliderImg {
+    background-color: #0B191A;
+    width: 260px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+
+.sliderImg > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.sliderHeader {
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sliderP {
+    font-size: 16px;
+    font-weight: 400;
+    color: #899D9D;
+    padding: 10px;
+}
+
+.sliderBtn {
+    border: 1px solid #BAE249;
+    color: #BAE249;
+    background-color: #1D2F30;
+    padding: 10px 25px;
+
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+}
+
+.sliderBtn:hover {
+    cursor: pointer;
+}
+
+.newArt-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.newArt-img {
+    grid-area: 1 / 1 / 2 / 4;
+    width: 1100px;
+    height: 300px;
+}
+
+.newArt-about {
+    grid-area: 1 / 4 / 2 / 5;
+}
